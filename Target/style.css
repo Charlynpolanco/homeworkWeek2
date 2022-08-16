@@ -1,0 +1,175 @@
+.navContainer {
+  border: solid rgb(79, 55, 55);
+  height: 60px;
+  border-width: 0.2px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks {
+  font-weight: 800;
+  font-size: 17px;
+}
+.cornerIcon {
+  height: 60px;
+  margin-left: 3px;
+}
+.navLinks:hover {
+  background-color: aqua;
+}
+.bttdwn {
+  position: absolute;
+  display: inline-block;
+}
+.bttdwnCont {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.bttdwnCont a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.bttdwn a:hover {
+  background-color: #ddd;
+}
+
+.bttdwn:hover .bttdwnCont {
+  display: block;
+}
+.bttdwn:hover .bttdwnCont {
+  background-color: #3e8e41;
+}
+
+.lftImg {
+  width: 100%;
+}
+
+.frontPage {
+  position: relative;
+  text-align: center;
+}
+.frontWords {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+.frontWords:hover {
+  text-decoration: none;
+  border-bottom: solid red;
+}
+
+#part1 {
+  color: #cc0000;
+  font-size: 220%;
+}
+#part2 {
+  color: #cc0000;
+  font-size: 460%;
+}
+#part3 {
+  color: black;
+  font-size: 150%;
+}
+#part4 {
+  background-color: #cc0000;
+  color: white;
+  font-size: 25px;
+  border-radius: 30px;
+  border-style: solid;
+}
+#part4:hover {
+  background-color: maroon;
+  color: white;
+  font-size: 25px;
+  border-radius: 30px;
+}
+.frontWords a {
+  text-decoration: none;
+}
+.frontWords a:hover {
+  color: red;
+}
+
+.fallbox {
+  background-color: rgb(252, 237, 221);
+  border: solid rgb(255, 255, 255);
+  margin: 30px;
+  border-width: 1px;
+}
+.fall {
+  text-align: center;
+  color: #8e4137;
+}
+.fallImg1 {
+  color: #8e4137;
+
+}
+.foodF {
+  width: 65%;
+}
+.bedF {
+  width: 65%;
+}
+.chairF {
+  width: 65%;
+}
+.fallboxtxt {
+  display: flex;
+  justify-content: space-evenly;
+  color: #8e4137;
+}
+.themeContainer{
+  display: flex;
+  justify-content: space-evenly; 
+}
+.themeTab:hover{
+ 
+  color: green;
+}
+.sneakerContainer{
+  /*border:solid red;*/
+  display:flex;
+  flex-wrap: wrap;
+  padding:6px;
+  height:54vh;
+  margin: 6px;
+}
+.sneakerBox{
+  border: solid blue;
+  height: 250px;
+  width: 250px;
+}
+.sneakerBox:hover{
+  border:solid green;
+  margin:12px;
+  border-width:5px;
+
+}
+.sneakerInfo{
+  border: solid orange;
+  /*margin-top: 90%;*/
+  font-size: 23px;
+  height: 100px;
+  text-align: center;
+  background-color: #333C3F;
+  color: lemonchiffon;
+}
+.deals{
+  text-align: center;
+}
+.themeTab{
+
+  font-size: 20px;
+}
+.bath{
+  width: 50%;
+}
+
